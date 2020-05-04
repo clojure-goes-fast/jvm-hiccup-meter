@@ -43,7 +43,7 @@ noticeable overhead to your application.
 [![](https://clojars.org/com.clojure-goes-fast/jvm-hiccup-meter/latest-version.svg)](https://clojars.org/com.clojure-goes-fast/jvm-hiccup-meter)
 
 ```clj
-(require '[clj-hiccup-meter.core :as hmeter])
+(require '[jvm-hiccup-meter.core :as hmeter])
 (def hm (hmeter/start-hiccup-meter callback-fn :resolution-ms 10))
 
 ;; To stop the meter thread
